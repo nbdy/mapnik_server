@@ -1,0 +1,252 @@
+[2021-12-26T22:30:00+01:00] 0:00:00 [info] removing existing cache /tmp/imposm3
+[2021-12-26T22:30:00+01:00] 0:00:00 [step] Starting: Imposm
+[2021-12-26T22:30:00+01:00] 0:00:00 [step] Starting: Reading OSM data
+[2021-12-26T22:30:00+01:00] 0:00:00 [info] reading /media/safe/maps/germany-latest.osm.pbf with data till 2021-10-09 22:21:28 +0200 CEST
+[2021-12-26T22:31:00+01:00] 0:01:00 [progress]   1m0s C: 1982000/s (118408000) N:   38400/s (2298909) W:       0/s (0) R:      0/s (0)
+[2021-12-26T22:32:00+01:00] 0:02:00 [progress]   2m0s C: 2678000/s (320704000) N:   51100/s (6121018) W:       0/s (0) R:      0/s (0)
+[2021-12-26T22:32:45+01:00] 0:02:44 [progress]  2m44s C: 2922000/s (349953025) N:   55900/s (6701417) W:       0/s (57145484) R:      0/s (524106)
+[2021-12-26T22:32:45+01:00] 0:02:44 [step] Finished: Reading OSM data in 2m44.888878815s
+[2021-12-26T22:32:45+01:00] 0:02:44 [step] Starting: Importing OSM data
+[2021-12-26T22:32:45+01:00] 0:02:44 [step] Starting: Writing OSM data
+[2021-12-26T22:33:45+01:00] 0:03:44 [progress]   1m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:       0/s ( 0.0%) R:    510/s ( 5.8%)
+[2021-12-26T22:34:45+01:00] 0:04:44 [progress]   2m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:       0/s ( 0.0%) R:    930/s (21.2%)
+[2021-12-26T22:35:45+01:00] 0:05:44 [progress]   3m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:       0/s ( 0.0%) R:   1190/s (40.8%)
+[2021-12-26T22:36:45+01:00] 0:06:44 [progress]   4m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:       0/s ( 0.0%) R:   1530/s (69.8%)
+[2021-12-26T22:37:45+01:00] 0:07:44 [progress]   5m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:       0/s ( 0.0%) R:   1710/s (98.1%)
+[2021-12-26T22:38:45+01:00] 0:08:44 [progress]   6m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:   32200/s ( 3.2%) R:   1460/s (100.0%)
+[2021-12-26T22:39:45+01:00] 0:09:44 [progress]   7m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:   39000/s ( 7.9%) R:   1460/s (100.0%)
+[2021-12-26T22:40:45+01:00] 0:10:44 [progress]   8m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:   47200/s (14.6%) R:   1460/s (100.0%)
+[2021-12-26T22:41:45+01:00] 0:11:44 [progress]   9m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:   54300/s (22.5%) R:   1460/s (100.0%)
+[2021-12-26T22:42:45+01:00] 0:12:44 [progress]  10m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:   61300/s (31.8%) R:   1460/s (100.0%)
+[2021-12-26T22:43:45+01:00] 0:13:44 [progress]  11m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:   68100/s (42.5%) R:   1460/s (100.0%)
+[2021-12-26T22:44:45+01:00] 0:14:44 [progress]  12m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:   74700/s (54.5%) R:   1460/s (100.0%)
+[2021-12-26T22:45:45+01:00] 0:15:44 [progress]  13m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:   79400/s (66.2%) R:   1460/s (100.0%)
+[2021-12-26T22:46:45+01:00] 0:16:44 [progress]  14m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:   82000/s (77.0%) R:   1460/s (100.0%)
+[2021-12-26T22:47:45+01:00] 0:17:44 [progress]  15m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:   83400/s (87.1%) R:   1460/s (100.0%)
+[2021-12-26T22:48:45+01:00] 0:18:44 [progress]  16m0s C:       0/s ( 0.0%) N:       0/s ( 0.0%) W:   84700/s (97.3%) R:   1460/s (100.0%)
+[2021-12-26T22:49:20+01:00] 0:19:19 [step] Finished: Writing OSM data in 16m34.549204524s
+[2021-12-26T22:49:20+01:00] 0:19:19 [step] Starting: Creating generalized tables
+[2021-12-26T22:49:20+01:00] 0:19:19 [progress] 16m34s C:       0/s ( 0.0%) N:       0/s (100.0%) W:   87000/s (100.0%) R:   1460/s (100.0%)
+[2021-12-26T22:49:20+01:00] 0:19:19 [step] Starting: Generalizing osm_waterways into osm_waterways_gen1
+[2021-12-26T22:49:20+01:00] 0:19:19 [step] Starting: Generalizing osm_roads into osm_roads_gen1
+[2021-12-26T22:49:20+01:00] 0:19:19 [step] Starting: Generalizing osm_waterareas into osm_waterareas_gen1
+[2021-12-26T22:49:20+01:00] 0:19:19 [step] Starting: Generalizing osm_landusages into osm_landusages_gen1
+[2021-12-26T22:49:22+01:00] 0:19:22 [step] Finished: Generalizing osm_waterareas into osm_waterareas_gen1 in 2.709474069s
+[2021-12-26T22:49:29+01:00] 0:19:28 [step] Finished: Generalizing osm_waterways into osm_waterways_gen1 in 8.923715826s
+[2021-12-26T22:49:53+01:00] 0:19:53 [step] Finished: Generalizing osm_roads into osm_roads_gen1 in 33.578079147s
+[2021-12-26T22:50:09+01:00] 0:20:09 [step] Finished: Generalizing osm_landusages into osm_landusages_gen1 in 49.673148552s
+[2021-12-26T22:50:09+01:00] 0:20:09 [step] Starting: Generalizing osm_waterways into osm_waterways_gen0
+[2021-12-26T22:50:09+01:00] 0:20:09 [step] Starting: Generalizing osm_waterareas into osm_waterareas_gen0
+[2021-12-26T22:50:09+01:00] 0:20:09 [step] Starting: Generalizing osm_landusages into osm_landusages_gen0
+[2021-12-26T22:50:09+01:00] 0:20:09 [step] Starting: Generalizing osm_roads into osm_roads_gen0
+[2021-12-26T22:50:09+01:00] 0:20:09 [step] Finished: Generalizing osm_waterareas into osm_waterareas_gen0 in 206.329191ms
+[2021-12-26T22:50:16+01:00] 0:20:15 [step] Finished: Generalizing osm_waterways into osm_waterways_gen0 in 6.299958696s
+[2021-12-26T22:50:17+01:00] 0:20:16 [step] Finished: Generalizing osm_roads into osm_roads_gen0 in 7.308043985s
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Finished: Generalizing osm_landusages into osm_landusages_gen0 in 9.371421976s
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Finished: Creating generalized tables in 59.044797833s
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Clustering on geometry
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_housenumbers_interpolated" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_transport_points" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_places" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_roads" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_waterways_gen0" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_aeroways" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_roads_gen1" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_waterways_gen1" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_transport_areas" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_landusages_gen1" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_amenities" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_landusages" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_barrierpoints" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_barrierways" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_waterways" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_housenumbers" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_admin" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_roads_gen0" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_landusages_gen0" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_waterareas_gen0" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_waterareas_gen1" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_waterareas" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Indexing "osm_buildings" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Finished: Indexing "osm_waterareas_gen0" on geohash in 397.630536ms
+[2021-12-26T22:50:19+01:00] 0:20:18 [step] Starting: Clustering "osm_waterareas_gen0" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:19 [step] Finished: Indexing "osm_housenumbers_interpolated" on geohash in 439.507366ms
+[2021-12-26T22:50:19+01:00] 0:20:19 [step] Starting: Clustering "osm_housenumbers_interpolated" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:19 [step] Finished: Indexing "osm_aeroways" on geohash in 557.095604ms
+[2021-12-26T22:50:19+01:00] 0:20:19 [step] Starting: Clustering "osm_aeroways" on geohash
+[2021-12-26T22:50:19+01:00] 0:20:19 [step] Finished: Indexing "osm_transport_areas" on geohash in 628.369598ms
+[2021-12-26T22:50:19+01:00] 0:20:19 [step] Starting: Clustering "osm_transport_areas" on geohash
+[2021-12-26T22:50:20+01:00] 0:20:19 [step] Finished: Indexing "osm_waterareas_gen1" on geohash in 916.685549ms
+[2021-12-26T22:50:20+01:00] 0:20:19 [step] Starting: Clustering "osm_waterareas_gen1" on geohash
+[2021-12-26T22:50:20+01:00] 0:20:19 [step] Finished: Indexing "osm_amenities" on geohash in 1.031187743s
+[2021-12-26T22:50:20+01:00] 0:20:19 [step] Starting: Clustering "osm_amenities" on geohash
+[2021-12-26T22:50:20+01:00] 0:20:20 [step] Finished: Clustering "osm_waterareas_gen0" on geohash in 1.091623644s
+[2021-12-26T22:50:20+01:00] 0:20:20 [step] Starting: Analysing "osm_waterareas_gen0"
+[2021-12-26T22:50:20+01:00] 0:20:20 [step] Finished: Analysing "osm_waterareas_gen0" in 126.753379ms
+[2021-12-26T22:50:21+01:00] 0:20:20 [step] Finished: Clustering "osm_housenumbers_interpolated" on geohash in 1.533566337s
+[2021-12-26T22:50:21+01:00] 0:20:20 [step] Starting: Analysing "osm_housenumbers_interpolated"
+[2021-12-26T22:50:21+01:00] 0:20:20 [step] Finished: Clustering "osm_aeroways" on geohash in 1.704163016s
+[2021-12-26T22:50:21+01:00] 0:20:20 [step] Starting: Analysing "osm_aeroways"
+[2021-12-26T22:50:21+01:00] 0:20:20 [step] Finished: Analysing "osm_housenumbers_interpolated" in 319.730773ms
+[2021-12-26T22:50:21+01:00] 0:20:21 [step] Finished: Analysing "osm_aeroways" in 173.548022ms
+[2021-12-26T22:50:21+01:00] 0:20:21 [step] Finished: Indexing "osm_places" on geohash in 2.63428984s
+[2021-12-26T22:50:21+01:00] 0:20:21 [step] Starting: Clustering "osm_places" on geohash
+[2021-12-26T22:50:21+01:00] 0:20:21 [step] Finished: Clustering "osm_transport_areas" on geohash in 2.025808502s
+[2021-12-26T22:50:21+01:00] 0:20:21 [step] Starting: Analysing "osm_transport_areas"
+[2021-12-26T22:50:21+01:00] 0:20:21 [step] Finished: Clustering "osm_waterareas_gen1" on geohash in 1.913629397s
+[2021-12-26T22:50:21+01:00] 0:20:21 [step] Starting: Analysing "osm_waterareas_gen1"
+[2021-12-26T22:50:21+01:00] 0:20:21 [step] Finished: Analysing "osm_transport_areas" in 180.553143ms
+[2021-12-26T22:50:21+01:00] 0:20:21 [step] Finished: Clustering "osm_amenities" on geohash in 1.817572162s
+[2021-12-26T22:50:21+01:00] 0:20:21 [step] Starting: Analysing "osm_amenities"
+[2021-12-26T22:50:22+01:00] 0:20:21 [step] Finished: Analysing "osm_waterareas_gen1" in 261.572054ms
+[2021-12-26T22:50:22+01:00] 0:20:21 [step] Finished: Analysing "osm_amenities" in 390.533844ms
+[2021-12-26T22:50:22+01:00] 0:20:22 [step] Finished: Indexing "osm_landusages_gen0" on geohash in 3.467385187s
+[2021-12-26T22:50:22+01:00] 0:20:22 [step] Starting: Clustering "osm_landusages_gen0" on geohash
+[2021-12-26T22:50:23+01:00] 0:20:23 [step] Finished: Clustering "osm_places" on geohash in 2.178835801s
+[2021-12-26T22:50:23+01:00] 0:20:23 [step] Starting: Analysing "osm_places"
+[2021-12-26T22:50:24+01:00] 0:20:23 [step] Finished: Indexing "osm_barrierpoints" on geohash in 4.886287088s
+[2021-12-26T22:50:24+01:00] 0:20:23 [step] Starting: Clustering "osm_barrierpoints" on geohash
+[2021-12-26T22:50:24+01:00] 0:20:23 [step] Finished: Analysing "osm_places" in 466.299575ms
+[2021-12-26T22:50:24+01:00] 0:20:23 [step] Finished: Indexing "osm_transport_points" on geohash in 5.352812636s
+[2021-12-26T22:50:24+01:00] 0:20:23 [step] Starting: Clustering "osm_transport_points" on geohash
+[2021-12-26T22:50:25+01:00] 0:20:24 [step] Finished: Indexing "osm_waterareas" on geohash in 5.905534054s
+[2021-12-26T22:50:25+01:00] 0:20:24 [step] Starting: Clustering "osm_waterareas" on geohash
+[2021-12-26T22:50:27+01:00] 0:20:26 [step] Finished: Indexing "osm_barrierways" on geohash in 7.86812634s
+[2021-12-26T22:50:27+01:00] 0:20:26 [step] Starting: Clustering "osm_barrierways" on geohash
+[2021-12-26T22:50:27+01:00] 0:20:26 [step] Finished: Indexing "osm_waterways" on geohash in 7.871833027s
+[2021-12-26T22:50:27+01:00] 0:20:26 [step] Starting: Clustering "osm_waterways" on geohash
+[2021-12-26T22:50:27+01:00] 0:20:27 [step] Finished: Indexing "osm_landusages_gen1" on geohash in 8.77907922s
+[2021-12-26T22:50:27+01:00] 0:20:27 [step] Starting: Clustering "osm_landusages_gen1" on geohash
+[2021-12-26T22:50:27+01:00] 0:20:27 [step] Finished: Indexing "osm_waterways_gen1" on geohash in 8.801444806s
+[2021-12-26T22:50:27+01:00] 0:20:27 [step] Starting: Clustering "osm_waterways_gen1" on geohash
+[2021-12-26T22:50:28+01:00] 0:20:27 [step] Finished: Indexing "osm_waterways_gen0" on geohash in 9.016191079s
+[2021-12-26T22:50:28+01:00] 0:20:27 [step] Starting: Clustering "osm_waterways_gen0" on geohash
+[2021-12-26T22:50:29+01:00] 0:20:28 [step] Finished: Clustering "osm_landusages_gen0" on geohash in 6.51515383s
+[2021-12-26T22:50:29+01:00] 0:20:28 [step] Starting: Analysing "osm_landusages_gen0"
+[2021-12-26T22:50:29+01:00] 0:20:29 [step] Finished: Analysing "osm_landusages_gen0" in 481.384576ms
+[2021-12-26T22:50:30+01:00] 0:20:29 [step] Finished: Indexing "osm_roads_gen1" on geohash in 11.020083914s
+[2021-12-26T22:50:30+01:00] 0:20:29 [step] Starting: Clustering "osm_roads_gen1" on geohash
+[2021-12-26T22:50:36+01:00] 0:20:36 [step] Finished: Indexing "osm_roads_gen0" on geohash in 17.657703024s
+[2021-12-26T22:50:36+01:00] 0:20:36 [step] Starting: Clustering "osm_roads_gen0" on geohash
+[2021-12-26T22:50:36+01:00] 0:20:36 [step] Finished: Indexing "osm_admin" on geohash in 17.840766954s
+[2021-12-26T22:50:36+01:00] 0:20:36 [step] Starting: Clustering "osm_admin" on geohash
+[2021-12-26T22:50:41+01:00] 0:20:40 [step] Finished: Clustering "osm_barrierpoints" on geohash in 16.996668979s
+[2021-12-26T22:50:41+01:00] 0:20:40 [step] Starting: Analysing "osm_barrierpoints"
+[2021-12-26T22:50:41+01:00] 0:20:40 [step] Finished: Analysing "osm_barrierpoints" in 269.904226ms
+[2021-12-26T22:50:43+01:00] 0:20:43 [step] Finished: Clustering "osm_transport_points" on geohash in 19.401369895s
+[2021-12-26T22:50:43+01:00] 0:20:43 [step] Starting: Analysing "osm_transport_points"
+[2021-12-26T22:50:44+01:00] 0:20:43 [step] Finished: Analysing "osm_transport_points" in 275.033434ms
+[2021-12-26T22:50:49+01:00] 0:20:49 [step] Finished: Indexing "osm_housenumbers" on geohash in 30.79315579s
+[2021-12-26T22:50:49+01:00] 0:20:49 [step] Starting: Clustering "osm_housenumbers" on geohash
+[2021-12-26T22:50:49+01:00] 0:20:49 [step] Finished: Clustering "osm_waterareas" on geohash in 24.92643905s
+[2021-12-26T22:50:49+01:00] 0:20:49 [step] Starting: Analysing "osm_waterareas"
+[2021-12-26T22:50:50+01:00] 0:20:49 [step] Finished: Analysing "osm_waterareas" in 295.229961ms
+[2021-12-26T22:50:52+01:00] 0:20:51 [step] Finished: Clustering "osm_barrierways" on geohash in 25.281937784s
+[2021-12-26T22:50:52+01:00] 0:20:51 [step] Starting: Analysing "osm_barrierways"
+[2021-12-26T22:50:52+01:00] 0:20:51 [step] Finished: Analysing "osm_barrierways" in 229.52061ms
+[2021-12-26T22:50:54+01:00] 0:20:53 [step] Finished: Clustering "osm_waterways_gen1" on geohash in 26.513846445s
+[2021-12-26T22:50:54+01:00] 0:20:53 [step] Starting: Analysing "osm_waterways_gen1"
+[2021-12-26T22:50:54+01:00] 0:20:54 [step] Finished: Analysing "osm_waterways_gen1" in 264.273517ms
+[2021-12-26T22:50:54+01:00] 0:20:54 [step] Finished: Clustering "osm_waterways_gen0" on geohash in 26.573049698s
+[2021-12-26T22:50:54+01:00] 0:20:54 [step] Starting: Analysing "osm_waterways_gen0"
+[2021-12-26T22:50:55+01:00] 0:20:54 [step] Finished: Analysing "osm_waterways_gen0" in 290.79489ms
+[2021-12-26T22:51:00+01:00] 0:20:59 [step] Finished: Clustering "osm_waterways" on geohash in 33.329728866s
+[2021-12-26T22:51:00+01:00] 0:20:59 [step] Starting: Analysing "osm_waterways"
+[2021-12-26T22:51:00+01:00] 0:20:59 [step] Finished: Clustering "osm_roads_gen1" on geohash in 30.386463192s
+[2021-12-26T22:51:00+01:00] 0:20:59 [step] Starting: Analysing "osm_roads_gen1"
+[2021-12-26T22:51:00+01:00] 0:21:00 [step] Finished: Analysing "osm_waterways" in 333.431641ms
+[2021-12-26T22:51:00+01:00] 0:21:00 [step] Finished: Analysing "osm_roads_gen1" in 440.818458ms
+[2021-12-26T22:51:02+01:00] 0:21:01 [step] Finished: Clustering "osm_admin" on geohash in 25.514535367s
+[2021-12-26T22:51:02+01:00] 0:21:01 [step] Starting: Analysing "osm_admin"
+[2021-12-26T22:51:02+01:00] 0:21:02 [step] Finished: Analysing "osm_admin" in 431.028778ms
+[2021-12-26T22:51:02+01:00] 0:21:02 [step] Finished: Clustering "osm_roads_gen0" on geohash in 26.154820682s
+[2021-12-26T22:51:02+01:00] 0:21:02 [step] Starting: Analysing "osm_roads_gen0"
+[2021-12-26T22:51:03+01:00] 0:21:03 [step] Finished: Analysing "osm_roads_gen0" in 637.62212ms
+[2021-12-26T22:51:03+01:00] 0:21:03 [step] Finished: Clustering "osm_landusages_gen1" on geohash in 35.984334794s
+[2021-12-26T22:51:03+01:00] 0:21:03 [step] Starting: Analysing "osm_landusages_gen1"
+[2021-12-26T22:51:04+01:00] 0:21:03 [step] Finished: Analysing "osm_landusages_gen1" in 272.668648ms
+[2021-12-26T22:51:04+01:00] 0:21:04 [step] Finished: Indexing "osm_landusages" on geohash in 45.421801845s
+[2021-12-26T22:51:04+01:00] 0:21:04 [step] Starting: Clustering "osm_landusages" on geohash
+[2021-12-26T22:51:19+01:00] 0:21:18 [step] Finished: Clustering "osm_housenumbers" on geohash in 29.34018139s
+[2021-12-26T22:51:19+01:00] 0:21:18 [step] Starting: Analysing "osm_housenumbers"
+[2021-12-26T22:51:19+01:00] 0:21:19 [step] Finished: Analysing "osm_housenumbers" in 399.333921ms
+[2021-12-26T22:51:22+01:00] 0:21:21 [step] Finished: Indexing "osm_roads" on geohash in 1m2.966577986s
+[2021-12-26T22:51:22+01:00] 0:21:21 [step] Starting: Clustering "osm_roads" on geohash
+[2021-12-26T22:52:08+01:00] 0:22:08 [step] Finished: Clustering "osm_landusages" on geohash in 1m4.218748447s
+[2021-12-26T22:52:08+01:00] 0:22:08 [step] Starting: Analysing "osm_landusages"
+[2021-12-26T22:52:09+01:00] 0:22:08 [step] Finished: Analysing "osm_landusages" in 308.821564ms
+[2021-12-26T22:52:42+01:00] 0:22:41 [step] Finished: Clustering "osm_roads" on geohash in 1m20.389472299s
+[2021-12-26T22:52:42+01:00] 0:22:41 [step] Starting: Analysing "osm_roads"
+[2021-12-26T22:52:42+01:00] 0:22:42 [step] Finished: Analysing "osm_roads" in 394.986363ms
+[2021-12-26T22:54:19+01:00] 0:24:18 [step] Finished: Indexing "osm_buildings" on geohash in 4m0.058532533s
+[2021-12-26T22:54:19+01:00] 0:24:18 [step] Starting: Clustering "osm_buildings" on geohash
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Finished: Clustering "osm_buildings" on geohash in 2m18.824981652s
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Analysing "osm_buildings"
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Finished: Analysing "osm_buildings" in 228.114794ms
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Finished: Clustering on geometry in 6m19.111838861s
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry indices
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_admin
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_housenumbers
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_aeroways
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_landusages
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_waterways
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating OSM id index on osm_landusages_gen1
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_amenities
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating OSM id index on osm_waterareas_gen0
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating OSM id index on osm_roads_gen1
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_transport_areas
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_transport_points
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_waterareas
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_housenumbers_interpolated
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating OSM id index on osm_landusages_gen0
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating OSM id index on osm_roads_gen0
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating OSM id index on osm_waterways_gen1
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_places
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_barrierpoints
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_roads
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating OSM id index on osm_waterways_gen0
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating OSM id index on osm_waterareas_gen1
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_buildings
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_barrierways
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Finished: Creating OSM id index on osm_waterareas_gen0 in 111.822364ms
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_waterareas_gen0
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Finished: Creating geometry index on osm_aeroways in 151.467706ms
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Finished: Creating geometry index on osm_housenumbers_interpolated in 151.499666ms
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Finished: Creating geometry index on osm_waterareas_gen0 in 69.197326ms
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Finished: Creating OSM id index on osm_waterareas_gen1 in 192.603266ms
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_waterareas_gen1
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Finished: Creating OSM id index on osm_landusages_gen0 in 222.073477ms
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Starting: Creating geometry index on osm_landusages_gen0
+[2021-12-26T22:56:38+01:00] 0:26:37 [step] Finished: Creating geometry index on osm_amenities in 269.938291ms
+[2021-12-26T22:56:38+01:00] 0:26:38 [step] Finished: Creating geometry index on osm_transport_areas in 332.47396ms
+[2021-12-26T22:56:38+01:00] 0:26:38 [step] Finished: Creating geometry index on osm_waterareas_gen1 in 236.826016ms
+[2021-12-26T22:56:39+01:00] 0:26:38 [step] Finished: Creating geometry index on osm_admin in 965.396031ms
+[2021-12-26T22:56:39+01:00] 0:26:39 [step] Finished: Creating geometry index on osm_places in 1.619496463s
+[2021-12-26T22:56:40+01:00] 0:26:39 [step] Finished: Creating OSM id index on osm_waterways_gen0 in 2.274220864s
+[2021-12-26T22:56:40+01:00] 0:26:39 [step] Starting: Creating geometry index on osm_waterways_gen0
+[2021-12-26T22:56:40+01:00] 0:26:40 [step] Finished: Creating OSM id index on osm_waterways_gen1 in 2.345483513s
+[2021-12-26T22:56:40+01:00] 0:26:40 [step] Starting: Creating geometry index on osm_waterways_gen1
+[2021-12-26T22:56:40+01:00] 0:26:40 [step] Finished: Creating geometry index on osm_landusages_gen0 in 2.205390174s
+[2021-12-26T22:56:41+01:00] 0:26:40 [step] Finished: Creating OSM id index on osm_landusages_gen1 in 2.77371739s
+[2021-12-26T22:56:41+01:00] 0:26:40 [step] Starting: Creating geometry index on osm_landusages_gen1
+[2021-12-26T22:56:41+01:00] 0:26:40 [step] Finished: Creating OSM id index on osm_roads_gen1 in 2.87687007s
+[2021-12-26T22:56:41+01:00] 0:26:40 [step] Starting: Creating geometry index on osm_roads_gen1
+[2021-12-26T22:56:41+01:00] 0:26:40 [step] Finished: Creating OSM id index on osm_roads_gen0 in 2.88090466s
+[2021-12-26T22:56:41+01:00] 0:26:40 [step] Starting: Creating geometry index on osm_roads_gen0
+[2021-12-26T22:56:43+01:00] 0:26:42 [step] Finished: Creating geometry index on osm_waterareas in 4.973644339s
+[2021-12-26T22:56:44+01:00] 0:26:43 [step] Finished: Creating geometry index on osm_transport_points in 5.867984156s
+[2021-12-26T22:56:44+01:00] 0:26:43 [step] Finished: Creating geometry index on osm_barrierpoints in 5.901160862s
+[2021-12-26T22:56:45+01:00] 0:26:44 [step] Finished: Creating geometry index on osm_barrierways in 7.217093186s
+[2021-12-26T22:56:51+01:00] 0:26:51 [step] Finished: Creating geometry index on osm_waterways in 13.367378908s
+[2021-12-26T22:56:52+01:00] 0:26:51 [step] Finished: Creating geometry index on osm_waterways_gen0 in 11.915258362s
+[2021-12-26T22:56:53+01:00] 0:26:53 [step] Finished: Creating geometry index on osm_waterways_gen1 in 13.205567516s
+[2021-12-26T22:56:54+01:00] 0:26:53 [step] Finished: Creating geometry index on osm_landusages_gen1 in 13.252143076s
+[2021-12-26T22:56:54+01:00] 0:26:53 [step] Finished: Creating geometry index on osm_roads_gen0 in 13.374915982s
+[2021-12-26T22:56:54+01:00] 0:26:54 [step] Finished: Creating geometry index on osm_roads_gen1 in 13.482131225s
+[2021-12-26T22:57:11+01:00] 0:27:10 [step] Finished: Creating geometry index on osm_housenumbers in 33.012145307s
+[2021-12-26T22:57:42+01:00] 0:27:41 [step] Finished: Creating geometry index on osm_landusages in 1m3.798113001s
+[2021-12-26T22:58:48+01:00] 0:28:48 [step] Finished: Creating geometry index on osm_roads in 2m10.368117469s
+[2021-12-26T23:02:14+01:00] 0:32:13 [step] Finished: Creating geometry index on osm_buildings in 5m35.959947849s
+[2021-12-26T23:02:14+01:00] 0:32:13 [step] Finished: Creating geometry indices in 5m35.96011938s
+[2021-12-26T23:02:14+01:00] 0:32:13 [step] Finished: Importing OSM data in 29m28.666043836s
+[2021-12-26T23:02:14+01:00] 0:32:13 [step] Finished: Imposm in 32m13.554973566s
