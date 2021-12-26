@@ -7,8 +7,9 @@ fi
 
 PGFILE=${1:-"__NONE__"}
 DATABASE=${2:-"gis"}
-PASSWORD=${3:-"postgres"}
-USERNAME=${4:-"postgres"}
+USERNAME=${3:-"postgres"}
+PASSWORD=${4:-""}
+
 
 
 if [ "$PGFILE" == "__NONE__" ]; then
